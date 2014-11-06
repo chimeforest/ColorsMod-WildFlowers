@@ -1,2 +1,4 @@
 TODO:
 	Make flower vases
+	Make flower pots
+	Tweak flower spawn rates
