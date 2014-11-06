@@ -9,7 +9,7 @@
          "placeable_on_ground" : true
       },      
       "stonehearth:material" : {
-         "tags" :  "plant"
+         "tags" :  "plant thrilip yellow colorsource"
       },     
       "mob" : {
          "model_origin" : { "x": 0, "y": 0, "z": 0 }
