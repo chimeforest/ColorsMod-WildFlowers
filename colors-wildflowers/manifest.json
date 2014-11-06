@@ -1,0 +1,12 @@
+{
+	"info": {
+		"name" : "colors-wildflowers"
+	},
+	"aliases"  : {
+		"thrilip": "file(entities/plants/thrilip)",
+		"thrilip:wild": "file(entities/plants/thrilip/thrilip_wild.json)"
+	},
+	"mixintos" : {
+		"/stonehearth/scenarios/index.json": ["file(mixintos/index.json)"]
+	}
+}
