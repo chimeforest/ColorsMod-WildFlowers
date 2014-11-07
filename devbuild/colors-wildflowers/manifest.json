@@ -1,0 +1,21 @@
+{
+	"info": {
+		"name" : "colors-wildflowers"
+	},
+	"aliases"  : {
+		"thrilip": "file(entities/plants/thrilip)",
+		"thrilip:wild": "file(entities/plants/thrilip/thrilip_wild.json)",
+		
+		"numnum": "file(entities/plants/numnum)",
+		"numnum:wild": "file(entities/plants/numnum/numnum_wild.json)",
+		
+		"mosie": "file(entities/plants/mosie)",
+		"mosie:wild": "file(entities/plants/mosie/mosie_wild.json)",
+		
+		"jills_pulpet": "file(entities/plants/jills_pulpet)",
+		"jills_pulpet:wild": "file(entities/plants/jills_pulpet/jills_pulpet_wild.json)"
+	},
+	"mixintos" : {
+		"stonehearth/scenarios/index.json": ["file(mixintos/index.json)"]
+	}
+}
