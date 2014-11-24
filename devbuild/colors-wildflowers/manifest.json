@@ -1,6 +1,7 @@
 {
 	"info": {
-		"name" : "colors-wildflowers"
+		"name" : "colors-wildflowers",
+		"version" : 1
 	},
 	"aliases"  : {
 		"thrilip": "file(entities/plants/thrilip)",
