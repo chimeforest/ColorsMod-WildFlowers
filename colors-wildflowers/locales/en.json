@@ -1,0 +1,11 @@
+{
+   "entities": {
+      "plants": {
+         "thrilip": {
+            "display_name": "Wild Thrilip",
+            "description": "A harvestable wild flower. \nThri is better than Tu!",
+            "unripe_description": "Unripe Thrilip"
+         }
+      }
+   }
+}

@@ -1,18 +1,44 @@
 {
-   "type" : "entity",
-   "mixins" : "file(thrilip_ghost.json)",
-
-   "components" : {
-      "stonehearth:entity_forms" : {
-         "iconic_form" : "file(thrilip_iconic.json)",
-         "ghost_form" : "file(thrilip_ghost.json)",
-         "placeable_on_ground" : true
-      },      
-      "stonehearth:material" : {
-         "tags" :  "plant thrilip yellow colorsource"
-      },     
-      "mob" : {
-         "model_origin" : { "x": 0, "y": 0, "z": 0 }
-      }
-	}
+	"type": "entity",
+	"mixins": "file(thrilip_ghost.json)",
+	"components": {
+		"model_variants": {
+			"depleted": {
+				"models": [
+					"file(thrilip_empty.qb)"
+				]
+			}
+		},
+		"stonehearth:renewable_resource_node": {
+         	"category": "harvest",
+			"harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+			"unripe_description": "i18n(colors-wildflowers:entities.plants.thrilip.unripe_description)",
+			"resource": "colors-wildflowers:resources:herb:thrilip_resource",
+			"renewal_time": "90h",
+		},
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(thrilip_iconic.json)",
+         "ghost_form": "file(thrilip_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      	}
+   	},
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "material_tags": "stockpile_plant"
+      },
+		"stonehearth:appeal": {
+			"appeal": 4
+		}
+   }
 }

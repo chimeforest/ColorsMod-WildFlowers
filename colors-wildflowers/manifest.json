@@ -1,13 +1,15 @@
 {
 	"info": {
 		"name" : "colors-wildflowers",
+		"namespace" : "colors-wildflowers",
 		"version" : 3
 	},
+	"default_locale": "en",
 	"aliases"  : {
-		"thrilip": "file(entities/plants/thrilip)",
-		"thrilip:wild": "file(entities/plants/thrilip/thrilip_wild.json)"
+		"thrilip:plant": "file(entities/plants/thrilip)",
+		"resources:herb:thrilip_resource" : "file(entities/resources/herb/thrilip_resource)"
 	},
 	"mixintos" : {
-		"/stonehearth/scenarios/scenario_index.json": ["file(mixintos/index.json)"]
+		"stonehearth/data/biome/temperate_generation_data.json": "file(mixins/generation_data.json)"
 	}
 }
