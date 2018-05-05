@@ -1,0 +1,39 @@
+{
+	"type": "entity",
+	"mixins": "stonehearth:mixins:item_properties",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+				"file(numnums.qb)"
+				]
+			}
+		},
+		"stonehearth:stacks": {
+			"max_stacks": 6
+		}
+	},
+	"entity_data": {
+		"stonehearth:net_worth": {
+			"value_in_gold": 1,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": true,
+				"sellable": true,
+				"shopkeeper_level": 1,
+				"shopkeeper_type": "caravan"
+			}
+		},
+		"stonehearth:catalog": {
+			"display_name": "i18n(colors-wildflowers:entities.plants.numnums.display_name)",
+			"description": "i18n(colors-wildflowers:entities.plants.numnums.description)",
+			"icon": "file(numnums.png)",
+			"is_item": true,
+			"category": "resources",
+			"material_tags": "plant herb resource stockpile_plant numnums yellow colorsource"
+		},
+		"stonehearth:appeal": {
+			"appeal": 1
+		}
+	}
+}

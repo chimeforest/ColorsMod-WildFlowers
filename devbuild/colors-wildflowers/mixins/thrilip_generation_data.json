@@ -1,0 +1,43 @@
+{
+	"landscape": {
+		"placement_table": {
+			"colors-wildflowers:plants:thrilip": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 4,
+					"item_density": 0.1,
+					"exclusion_radius": 1
+				}
+			}
+		},
+		"scattered": {
+			"plants": {
+				"__comment": "for example, a small probability with a large density would be more clustered than a large probability with small density.",
+				"weights": {
+					"plains": {
+						"1": {
+							"colors-wildflowers:plants:thrilip": 0.5
+						}
+					},
+					"foothills": {
+						"1": {
+							"colors-wildflowers:plants:thrilip": 0.0
+						},
+						"2": {
+							"colors-wildflowers:plants:thrilip": 0.0
+						}
+					},
+					"mountains": {
+						"1": {
+							"colors-wildflowers:plants:thrilip": 0.0
+						},
+						"3": {
+							"colors-wildflowers:plants:thrilip": 0.0
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}

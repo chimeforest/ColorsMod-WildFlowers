@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "plants": {
+      "jillspulpet": {
+        "display_name": "Wild Jill's Pulpet",
+        "description": "Nobody knows what happened to Jack...",
+        "unripe_description": "This plant has been harvested and has yet to grow back"
+      },
+      "mosie": {
+        "display_name": "Wild Mosie",
+        "description": "Mosie over this way",
+        "unripe_description": "This plant has been harvested and has yet to grow back"
+      },
+      "numnums": {
+        "display_name": "Wild Numnums",
+        "description": "Might be edible, but better not risk it!!",
+        "unripe_description": "This plant has been harvested and has yet to grow back"
+      },
+      "thrilip": {
+        "display_name": "Wild Thrilip",
+        "description": "Thri is better than Tu.",
+        "unripe_description": "This plant has been harvested and has yet to grow back"
+      }
+    }
+  }
+}

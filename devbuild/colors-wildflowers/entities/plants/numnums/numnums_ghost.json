@@ -8,7 +8,7 @@
 		"model_variants": {
 			"default": {
 				"models": [
-				"file(mosie.qb)"
+				"file(numnums.qb)"
 				]
 			}
 		},
@@ -19,9 +19,9 @@
 	},
 	"entity_data": {
 		"stonehearth:catalog": {
-			"display_name": "i18n(colors-wildflowers:entities.plants.mosie.display_name)",
-			"description": "i18n(colors-wildflowers:entities.plants.mosie.description)",
-			"icon": "file(mosie.png)",
+			"display_name": "i18n(colors-wildflowers:entities.plants.numnums.display_name)",
+			"description": "i18n(colors-wildflowers:entities.plants.numnums.description)",
+			"icon": "file(numnums.png)",
 			"category": "plants"
 		}
 	}

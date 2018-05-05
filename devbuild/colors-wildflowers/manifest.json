@@ -1,22 +1,58 @@
 {
 	"info": {
-		"name" : "colors-wildflowers",
-		"version" : 1
+		"name": "colors-wildflowers",
+		"version": 3,
+		"description":"A little mod which adds a small amount of color to the world..",
+		"author":"author",
+		"mod_ver":""
 	},
-	"aliases"  : {
-		"thrilip": "file(entities/plants/thrilip)",
-		"thrilip:wild": "file(entities/plants/thrilip/thrilip_wild.json)",
-		
-		"numnum": "file(entities/plants/numnum)",
-		"numnum:wild": "file(entities/plants/numnum/numnum_wild.json)",
-		
-		"mosie": "file(entities/plants/mosie)",
-		"mosie:wild": "file(entities/plants/mosie/mosie_wild.json)",
-		
-		"jills_pulpet": "file(entities/plants/jills_pulpet)",
-		"jills_pulpet:wild": "file(entities/plants/jills_pulpet/jills_pulpet_wild.json)"
+	"default_locale": "en",
+	"aliases": {
+		"plants:jillspulpet":"file(entities/plants/jillspulpet)",
+		"resources:herb:jillspulpet":"file(entities/resources/herb/jillspulpet)",
+		"plants:mosie":"file(entities/plants/mosie)",
+		"resources:herb:mosie":"file(entities/resources/herb/mosie)",
+		"plants:numnums":"file(entities/plants/numnums)",
+		"resources:herb:numnums":"file(entities/resources/herb/numnums)",
+		"plants:thrilip":"file(entities/plants/thrilip)",
+		"resources:herb:thrilip":"file(entities/resources/herb/thrilip)"
 	},
-	"mixintos" : {
-		"stonehearth/scenarios/index.json": ["file(mixintos/index.json)"]
+	"mixintos" :  {
+		"stonehearth/data/biome/temperate_generation_data.json":"file(mixins/jillspulpet_generation_data.json)",
+		"stonehearth/data/biome/desert_generation_data.json":"file(mixins/jillspulpet_desert_generation_data.json)",
+		"stonehearth/data/biome/temperate_generation_data.json":"file(mixins/mosie_generation_data.json)",
+		"stonehearth/data/biome/desert_generation_data.json":"file(mixins/mosie_desert_generation_data.json)",
+		"stonehearth/data/biome/temperate_generation_data.json":"file(mixins/numnums_generation_data.json)",
+		"stonehearth/data/biome/desert_generation_data.json":"file(mixins/numnums_desert_generation_data.json)",
+		"stonehearth/data/biome/temperate_generation_data.json":"file(mixins/thrilip_generation_data.json)",
+		"stonehearth/data/biome/desert_generation_data.json":"file(mixins/thrilip_desert_generation_data.json)"
+	},
+	"overrides" : {
+		
+	},
+	"functions": {
+		
+	},
+	"controllers": {
+		
+	},
+	"client_controllers": {
+		
+	},
+	"components": {
+		
+	},
+	"client_components": {
+		
+	},
+	"component_renderers": {
+		
+	},
+	"invariant_renderers": {
+		
+	},
+	"ui": {
+		
 	}
+	
 }
